@@ -51,9 +51,11 @@ Therefore, public data will be treated as contextual or proxy data rather than b
 ## Repository Structure
 
 ```text
-docs/
-├── Week 2 Data Sourcing Strategy
-└── Supporting documentation
-
-README.md
-Week 1 Report
+beauty-routine-dropout-prediction/
+│
+├── docs/
+│   ├── .gitkeep
+│   └── Week_2_Data_Sourcing_Strategy_Final.docx
+│
+├── README.md
+└── Week_1_Data_Science_Report.docx
