@@ -28,8 +28,8 @@ It is not presented as an established industry metric.
 
 - ✅ Week 1 — Problem Definition & Research Planning
 - ✅ Week 2 — Data Identification, Sourcing Strategy & Initial Analysis Planning
-- ⏳ Week 3 — Upcoming
-
+- ⏳ Week 3 — 
+- 🟡 Week 3 — Data Cleaning and Preprocessing Pipeline (simulated-data demo completed; real-data testing pending)
 ## Data Strategy
 
 The project uses publicly available secondary data as a reference for product, ingredient, rating and review-related analysis.
