@@ -1,0 +1,7 @@
+numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.4   # tested with 1.9.1
+matplotlib>=3.8
+seaborn>=0.13
+# optional, only for --resample smote (NOT tested in this project yet):
+# imbalanced-learn
