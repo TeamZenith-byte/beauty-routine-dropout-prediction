@@ -1,0 +1,12 @@
+name,role,type,measured_at,feature_id,note,status
+person_id,id,,,-,Row identifier; never a feature,PLANNED - no data
+participant_id,group,,,-,Use when one participant has several rows (group-aware splits),PLANNED - no data
+routine_dropout,target,,,-,0/1 outcome from the outcome window; one value per participant,PLANNED - no label exists
+routine_step_count,feature,numeric,baseline,F18,Baseline window only,PLANNED - no data
+time_burden_min_day,feature,numeric,baseline,F19,Baseline window only,PLANNED - no data
+cost_per_use,feature,numeric,baseline,F20,Baseline window only,PLANNED - no data
+usage_frequency_per_week,feature,numeric,baseline,F24,Baseline window only,PLANNED - no data
+skin_concern_category,feature,categorical,baseline,F26,Baseline window only,PLANNED - no data
+perceived_affordability,feature,numeric,baseline,F27,Baseline window only,PLANNED - no data
+irritation_event_count,feature,numeric,baseline,F29,Baseline window only,PLANNED - no data
+routine_satisfaction,feature,numeric,baseline,F30,Baseline window only,PLANNED - no data
