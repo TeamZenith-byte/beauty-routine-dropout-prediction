@@ -1,0 +1,8 @@
+property,logistic_regression,decision_tree,random_forest
+Role,Primary baseline,Interpretable comparison,Ensemble comparison
+Interpretability,High,High if shallow,Lower
+Needs scaling,Yes,No,No
+Finds interactions,Only if added by hand,Yes,Yes
+Main overfitting risk,Low-moderate,High if deep,Moderate
+Class imbalance handling,balanced,balanced,balanced_subsample
+NOTE,"General algorithm properties, NOT project results",,

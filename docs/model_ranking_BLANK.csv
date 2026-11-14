@@ -1,0 +1,4 @@
+model,cv_mean_pr_auc,cv_spread,test_pr_auc_95ci,decision
+Logistic Regression,Not yet evaluated,Not yet evaluated,Not yet evaluated,Not yet evaluated
+Decision Tree,Not yet evaluated,Not yet evaluated,Not yet evaluated,Not yet evaluated
+Random Forest,Not yet evaluated,Not yet evaluated,Not yet evaluated,Not yet evaluated

@@ -1,0 +1,5 @@
+model,role,accuracy,precision,recall,f1,roc_auc,pr_auc,threshold,status
+Logistic Regression,primary baseline,Not yet evaluated,Not yet evaluated,Not yet evaluated,Not yet evaluated,Not yet evaluated,Not yet evaluated,Not yet evaluated,Waiting for verified real labels
+Decision Tree,interpretable comparison,Not yet evaluated,Not yet evaluated,Not yet evaluated,Not yet evaluated,Not yet evaluated,Not yet evaluated,Not yet evaluated,Waiting for verified real labels
+Random Forest,ensemble comparison,Not yet evaluated,Not yet evaluated,Not yet evaluated,Not yet evaluated,Not yet evaluated,Not yet evaluated,Not yet evaluated,Waiting for verified real labels
+Dummy prior baseline,reference (PR-AUC equals prevalence),Not yet evaluated,Not yet evaluated,Not yet evaluated,Not yet evaluated,Not yet evaluated,Not yet evaluated,Not yet evaluated,Waiting for verified real labels

@@ -1,0 +1,9 @@
+metric,formula,plain_meaning,role_in_project
+Accuracy,(TP+TN)/(TP+TN+FP+FN),Share of all predictions that are right,Context only; misleading when dropouts are rare
+Precision,TP/(TP+FP),Share of flagged customers who really drop out,Secondary; controls wasted outreach
+Recall,TP/(TP+FN),Share of real dropouts that are caught,Primary (at a minimum precision)
+F1-score,2PR/(P+R),Harmonic mean of precision and recall,Secondary
+F2-score,5PR/(4P+R),Like F1 but recall counts more,Primary; used for the default threshold
+ROC-AUC,Area under TPR vs FPR,Chance a random dropout scores above a random continuer,Secondary; ranking quality
+PR-AUC (average precision),Area under precision vs recall,Precision-recall trade-off; baseline = dropout rate,Primary; tuning score
+Brier score,mean((p-y)^2),Accuracy of predicted probabilities (lower is better),Trust check
